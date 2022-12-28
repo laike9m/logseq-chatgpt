@@ -14,7 +14,7 @@ In Logseq, type `/` to find and run the `chatgpt-reply` command, then wait for t
 
 ![](https://user-images.githubusercontent.com/2592205/209801153-f0b1f1bc-f211-45f6-a50c-028aab4b65d3.gif)
 
-The plugin only works for Chrome (probably other Chromium-based browser as well) at the moment.
+The plugin only works for Chrome (probably other Chromium-based browsers as well) at the moment.
 
 ## Setup
 
@@ -41,7 +41,7 @@ To use this plugin, some setup is needed, but I assure you it's very simple:
 - Login to ChatGPT and keep tab open  
   https://chat.openai.com/chat
   
-  Make sure you're logged in via using this plugin (refresh the page if the session expires).
+  Make sure you're logged in while using this plugin (refresh the page if the session expires).
   
 
 ## How it works
