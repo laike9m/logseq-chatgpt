@@ -1,27 +1,36 @@
 {
-  "name": "logseq-starter-plugin",
-  "version": "1.0",
-  "description": "Starter Plugin",
+  "name": "logseq-chatgpt",
+  "version": "0.0.1",
+  "description": "Plugin to communicate with ChatGPT.",
   "main": "dist/index.html",
   "targets": {
     "main": false
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "parcel build --no-source-maps index.html --public-url ./"
+    "clean": "rimraf dist/*.js dist/*.html",
+    "build": "npm run clean && parcel build --no-source-maps index.html --public-url ./",
+    "watch": "watch 'npm run build' ./src"
   },
   "keywords": [],
-  "author": "Aryan Sawhney",
+  "author": "laike9m",
   "license": "MIT",
   "dependencies": {
-    "@logseq/libs": "0.0.1-alpha.34"
+    "@logseq/libs": "*",
+    "puppeteer-web": "^0.0.3"
   },
   "logseq": {
-    "id": "logseq-starter-plugin",
-    "title": "logseq-starter-plugin",
+    "id": "logseq-chatgpt",
+    "title": "logseq-chatgpt",
     "icon": "./icon.png"
   },
   "devDependencies": {
-    "parcel": "^2.0.0"
-  }
+    "assert": "^2.0.0",
+    "os-browserify": "^0.3.0",
+    "parcel": "^2.0.0",
+    "path-browserify": "^1.0.1",
+    "rimraf": "^3.0.2",
+    "watch": "^0.13.0"
+  },
+  "type": "module"
 }
