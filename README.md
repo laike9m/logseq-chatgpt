@@ -21,6 +21,7 @@ The plugin only works for Chrome (probably other Chromium-based browser as well)
 To use this plugin, some setup is needed, but I assure you it's very simple:
 
 * Close Chrome, and launch it with a command line argument `--remote-debugging-port=9222`
+  It's recommended to create a shortcut to always run Chrome with this option, see the [guidance](https://stackoverflow.com/a/58457229/2142577), but you can also do it manually:
 
   * Windows 
     ```
@@ -35,12 +36,13 @@ To use this plugin, some setup is needed, but I assure you it's very simple:
   * Linux
     ```
     chrome --remote-debugging-port=9222
+    ```
 
-​	It's recommended to create a shortcut to always run Chrome with remote debugging port enabled, see the [guidance](https://stackoverflow.com/a/58457229/2142577).
+​    
 
-- Login to ChatGPT   
+- Login to ChatGPT and keep tab open
   https://chat.openai.com/chat  
-  and keep tab open
+  
 
 ## How it works
 
