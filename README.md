@@ -38,10 +38,10 @@ To use this plugin, some setup is needed, but I assure you it's very simple:
     chrome --remote-debugging-port=9222
     ```
 
-​    
-
-- Login to ChatGPT and keep tab open
-  https://chat.openai.com/chat  
+- Login to ChatGPT and keep tab open  
+  https://chat.openai.com/chat
+  
+  Make sure you're logged in via using this plugin (refresh the page if the session expires).
   
 
 ## How it works
