@@ -1,3 +1,5 @@
+**UPDATE: Project not maintained. Please use [logseq-plugin-gpt3-openai](https://github.com/briansunter/logseq-plugin-gpt3-openai)**
+
 **DISCLAIMER: The code needs some serious testing and polishing, and it's far from feature complete. All feedbacks welcome.** I'll submit it to the marketplace once it becomes more mature.
 
 # logseq-chatgpt
